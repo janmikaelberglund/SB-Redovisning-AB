@@ -1,19 +1,43 @@
-<p>contact works!</p>
-
-
-<form>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+<div>
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-8">
+            <h3>Kontakta mig</h3>
+            <p>Boka ett första möte med oss så vi kan komma fram till vad vi kan hjälpa dig med. Kontakta oss med hjälp av formuläret nedan.</p>
+            <form class="p-3">
+              <div class="form-group">
+                <label for="name">Namn:</label>
+                <input type="text" class="form-control" id="name" placeholder="Ange ditt namn">
+              </div>
+              <div class="form-group">
+                <label for="email">E-post:</label>
+                <input type="email" class="form-control" id="email" placeholder="Ange din email">
+              </div>
+              <div class="form-group">
+                <label for="phone">Telefonnummer:</label>
+                <input type="text" class="form-control" id="phone" placeholder="Ange ditt telefonnummer">
+              </div>
+              <div class="form-group">
+                <label for="subject">Ämne:</label>
+                <input type="text" class="form-control" id="subject">
+              </div>
+              <div class="form-group">
+                <label for="message">Meddelande:</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary mt-2">Skicka meddelande</button>
+            </form>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="src\assets\industry-g17e0455f0_640.png" alt="Avatar" class="rounded-circle img-thumbnail mb-3">
+            <h3>John Doe</h3>
+            <p>Web Developer</p>
+            <p>
+              <i class="fa fa-envelope mr-2"></i>sb.redovisning@mail.com
+            </p>
+            <p>
+              <i class="fa fa-phone mr-2"></i> +46 73-515 20 87
+            </p>
+          </div>
+        </div>
+      </div>
